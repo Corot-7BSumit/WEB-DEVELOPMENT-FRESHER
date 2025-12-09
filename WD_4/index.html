@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3 style="color: rgb(52, 67, 225);">APPLICATION FORM FOR BECOMING A DISCORD MOD</h3>
+    <form action="post">
+        <div><label for="username" style="color: brown; font-size: larger;">Enter your name: </label>
+        <input type="text" name="username" id="username" placeholder="Enter your name.">
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>    
+        <div>
+            <input type="radio" name="age" id="minor" value="18-">
+            <label for="minor">18-</label>
+            <input type="radio" name="age" id="adult" value="18+">
+            <label for="adult">18+</label>
+        </div>    
+        <div>
+            <input type="checkbox" name="hobbies" id="Chess" value="yes">
+            <label for="Chess">Chess</label>
+            <input type="checkbox" name="hobbies" id="Football" value="yes">
+            <label for="Football">Football</label>
+            <input type="checkbox" name="hobbies" id="Reading Novels" value="yes">
+            <label for="Reading Novels">Reading Novels</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="50" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="fruits">Enter Your Favourite fruit amongst the following:-</label>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="pomegranate">Pomegranate</option>
+                <option value="mango">Mango</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

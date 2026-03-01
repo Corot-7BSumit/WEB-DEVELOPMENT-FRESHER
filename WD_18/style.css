@@ -1,0 +1,11 @@
+div{
+    background-color: red;
+}
+span{
+    background-color: yellow;
+    border: 3px dashed green;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

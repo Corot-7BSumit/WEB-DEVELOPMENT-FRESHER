@@ -1,0 +1,12 @@
+#para{
+    background-color: yellow;
+    width: 50%;
+}
+/* #div1{
+    background-color: red;
+    width: 80vw;
+} */
+#div1{
+background-color: red;
+    width: calc(100% - 200px);
+}

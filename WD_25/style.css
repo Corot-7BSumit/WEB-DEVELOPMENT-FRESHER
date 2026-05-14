@@ -1,0 +1,17 @@
+.container{
+    background-color: red;
+    width: 450px;
+    height: 70vh;
+}
+.box{
+    width: 123px;
+    height: 123px;
+    background-color: beige;
+    margin: 5px;
+    /* transform: translate(50px, 50px);
+    transform: rotate(-30deg); */
+    /* transform: translate(145px, 85px) rotate(-30deg) scale(1.5); */
+    /* transform: skewX(20deg); */
+    /* transform: skewY(10deg); */
+    transform: skew(20deg, 10deg);
+}

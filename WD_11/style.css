@@ -1,0 +1,25 @@
+/* h1{
+    color: darkgreen;
+    text-align: center;
+} */
+ .smaller{
+    font-size: 18px;
+ }
+ .brown{
+    color: brown;
+ }
+ .yellow{
+    color: yellow;
+ }
+ .blue{
+    color: blue;
+ }
+ .small{
+    font-size: 22px;
+ }
+ .large{
+    font-size: 32px;
+ }
+ .larger{
+    font-size: 38px;
+ }

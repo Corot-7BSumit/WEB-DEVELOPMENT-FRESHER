@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    border: 2px solid red;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+}
+#box1{
+    grid-column: 1/3;
+}

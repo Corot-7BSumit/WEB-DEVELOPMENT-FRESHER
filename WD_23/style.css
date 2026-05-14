@@ -1,0 +1,17 @@
+.container{
+    background-color: var(--primary-color);
+    /* color: white; */
+    color: white;
+}
+.box{
+    background-color: beige;
+    color: var(--text-color,black);
+    margin: 20px;
+}
+:root{
+    --primary-color: red;
+    /* --text-color: rgb(36, 36, 109); */
+}
+footer{
+    border: 2px solid var(--primary-color);
+}

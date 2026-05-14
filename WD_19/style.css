@@ -1,0 +1,39 @@
+.container{
+    width: 284px;
+    height: 290vh;
+    border: 2px solid red;
+    position: relative;
+    top: 20px;
+    margin: 5px;
+}
+.box1{
+   width: 184px;
+    height: 84px;
+    border: 2px solid green;
+    background-color: aqua;
+    position: absolute;
+    top: 32px;
+    left: 20px; 
+    z-index: 10;
+}
+.ad1{
+    border: 3px dotted brown;
+    background-color: beige;
+    padding: 34px;
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+}
+.ad2{
+    border: 3px dashed gray;
+    background-color: beige;
+    padding: 34px;
+    /* position: sticky; */
+    position: sticky;
+    z-index: 20;
+}
+p{
+    position: relative;
+    top: 140px;
+    text-align: center;
+}

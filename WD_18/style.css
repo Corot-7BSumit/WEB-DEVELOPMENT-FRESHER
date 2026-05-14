@@ -1,0 +1,16 @@
+div{
+    background-color: red;
+    display: block;
+}
+span{
+    background-color: yellow;
+    border: 3px dashed green;
+    display: block;
+}
+.div2{
+    display: none;
+}
+*{
+    margin: 5px 0px;
+    padding: 0px 5px;
+}

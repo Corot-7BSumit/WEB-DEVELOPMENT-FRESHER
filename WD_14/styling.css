@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #para{
     background-color: yellow;
     width: 50%;
@@ -9,4 +10,17 @@
 #div1{
 background-color: red;
     width: calc(100% - 200px);
+=======
+#para{
+    background-color: yellow;
+    width: 50%;
+}
+/* #div1{
+    background-color: red;
+    width: 80vw;
+} */
+#div1{
+background-color: red;
+    width: calc(100% - 200px);
+>>>>>>> f36b35472b6f5b84d1b751ea1f5adf15d077a6fe
 }

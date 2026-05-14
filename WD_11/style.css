@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* h1{
     color: darkgreen;
     text-align: center;
@@ -22,4 +23,30 @@
  }
  .larger{
     font-size: 38px;
+=======
+/* h1{
+    color: darkgreen;
+    text-align: center;
+} */
+ .smaller{
+    font-size: 18px;
+ }
+ .brown{
+    color: brown;
+ }
+ .yellow{
+    color: yellow;
+ }
+ .blue{
+    color: blue;
+ }
+ .small{
+    font-size: 22px;
+ }
+ .large{
+    font-size: 32px;
+ }
+ .larger{
+    font-size: 38px;
+>>>>>>> f36b35472b6f5b84d1b751ea1f5adf15d077a6fe
  }

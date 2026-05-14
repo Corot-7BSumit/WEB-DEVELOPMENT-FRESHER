@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p{
     border: 2px solid red;
     margin: 23px;
@@ -16,4 +17,24 @@ h1{
 .container{
     width: 300px;
     margin: auto;
+=======
+p{
+    border: 2px solid red;
+    margin: 23px;
+    padding: 15px 20px 15px 0px;
+    background-color: beige;
+}
+h1{
+    margin: 23px;
+    border: 4px solid brown;
+    background-color: aquamarine;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 300px;
+    margin: auto;
+>>>>>>> f36b35472b6f5b84d1b751ea1f5adf15d077a6fe
 }

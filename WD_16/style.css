@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p{
     background-color: yellow;
     color: red;
@@ -11,4 +12,19 @@ p{
     /* background-position: center; */
     border: 5px solid brown;
     border-radius: 15px;
+=======
+p{
+    background-color: yellow;
+    color: red;
+    background-image: url(https://images.pexels.com/photos/13793585/pexels-photo-13793585.jpeg);
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    /* background-size: 1080px 1920px; */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* background-position: center; */
+    border: 5px solid brown;
+    border-radius: 15px;
+>>>>>>> f36b35472b6f5b84d1b751ea1f5adf15d077a6fe
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p {
     font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,4 +20,27 @@ h1 {
 
 .upper {
     text-transform: uppercase;
+=======
+p {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: oblique;
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: 1.15px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: "Cascadia Mono", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.upper {
+    text-transform: uppercase;
+>>>>>>> f36b35472b6f5b84d1b751ea1f5adf15d077a6fe
 }

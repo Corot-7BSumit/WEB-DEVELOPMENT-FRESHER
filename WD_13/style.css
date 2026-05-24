@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #div1{
     background-color: yellow;
     height: 400px;
@@ -13,20 +12,4 @@
     padding: 20px;
     border: 10px solid black;
     box-sizing: border-box;
-=======
-#div1{
-    background-color: yellow;
-    height: 400px;
-    width: 400px;
-    padding: 20px;
-    border: 5px dashed rgb(225, 16, 16);
-    box-sizing: content-box;
-}
-.card{
-    height: 400px;
-    width: 400px;
-    padding: 20px;
-    border: 10px solid black;
-    box-sizing: border-box;
->>>>>>> f36b35472b6f5b84d1b751ea1f5adf15d077a6fe
 }

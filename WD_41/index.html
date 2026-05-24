@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JS</title>
+    <style>
+        .box {
+            height: 55px;
+            width: 344px;
+            background-color: red;
+            padding: 34px;
+            margin: 34px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box" id="box2">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+    <script>
+        box1 = document.querySelector(".box")
+        box2 = document.getElementById("box2")
+        box1.addEventListener('mouseenter', () => {
+            box1.style.backgroundColor = "blue"
+            box1.style.color = "white"
+        })
+        box1.addEventListener('mouseleave', () => {
+            box1.style.backgroundColor = "red"
+            box1.style.color = "black"
+        })
+        box2.addEventListener('click', ()=>{
+            box2.innerHTML = "Hey You clicked on me !! HOW DARE YOU?"
+            box2.style.fontSize = "22px"
+            
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Events</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <span id="firstspan">I am a span.</span>
+        <br>
+        <input type="text">
+        <br>
+        <h1 id="head">-</h1>
+    </div>
+    <script>
+        firstSpan = document.getElementById("firstspan")
+        firstSpan.addEventListener('click', () => {
+            alert("Hey!!")
+        })
+        inputRef = document.querySelector("input")
+        h1Ref = document.getElementById("head")
+        inputRef.addEventListener('keyup', (event) => {
+            alert("Key Pressed")
+            h1Ref.textContent = event.key
+        })
+        boxRef = document.querySelector(".box")
+        boxRef.addEventListener('mouseover', () => {
+            boxRef.style.backgroundColor = "blue"
+        })
+        boxRef.addEventListener('mouseout', () => {
+            boxRef.style.backgroundColor = ""
+        })
+    </script>
+</body>
+
+</html>

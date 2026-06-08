@@ -1,0 +1,23 @@
+{
+  "name": "first-package",
+  "version": "1.0.0",
+  "description": "test package",
+  "homepage": "https://github.com/Corot-7BSumit/WEB-DEVELOPMENT-FRESHER#readme",
+  "bugs": {
+    "url": "https://github.com/Corot-7BSumit/WEB-DEVELOPMENT-FRESHER/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corot-7BSumit/WEB-DEVELOPMENT-FRESHER.git"
+  },
+  "license": "ISC",
+  "author": "Sumit",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.18.1"
+  }
+}

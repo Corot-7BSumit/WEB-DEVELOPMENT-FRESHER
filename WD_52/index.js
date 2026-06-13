@@ -2,8 +2,10 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+app.use(express.static('public'))
+
 app.use(express.json())
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
     res.send('Hello World! Sumit')
@@ -28,6 +30,12 @@ app.delete('/', (req, res) => {
 })
 
 //use the command: node --watch index.js to watch the code run live on web browser
+
+app.get('/search', (req, res) => {
+    let query = req.query.q
+    let location = req.query.location
+    res.send(`You searched for: ${query} | Your location: ${location}`)
+})
 
 app.listen(port, () => {
     console.log(`Example app listening on port http://localhost:${port}`)
